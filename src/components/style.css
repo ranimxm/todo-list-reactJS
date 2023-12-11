@@ -1,0 +1,52 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    background-color: #fff3ea;
+    height: 50vh;
+    width: 47vw;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: -18vh;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.containerContent{
+    padding: 1em;
+}
+.homeContainer {
+    height: 60vh;
+    background-image: url(./img/coffee.png);
+    background-size: 105% 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.h2{
+    margin: 0;
+}
+.hoverItem:hover {
+    color: blue;
+}
+.listItem{
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    transition: 0.3s ease-in-out
+}
+.listItemContainer{
+    padding: 1em;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: ease-in-out .3s;
+}
+
+.listItemContainer:hover{
+    background-color: #ed6c02;
+    transition: ease-in-out .3s;
+}
